@@ -64,7 +64,7 @@ const saveNote=()=>
     notesDiv.append(noteDiv);
     titleInput.value='';
     bodyInput.value='';
-    bgColorInput.value='';
+    bgColorInput.value='Select color';
 }
 
 document.querySelector('button.add').onclick=()=>saveNote();
