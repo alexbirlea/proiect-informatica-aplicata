@@ -72,13 +72,13 @@ document.querySelector('button.add').onclick=()=>saveNote();
 
 const notesDiv=document.querySelector('.notesDiv');
 
-/*
+
 notes.forEach(note=>
     {
         const noteDiv=createNoteView(note);
         notesDiv.append(noteDiv);
     });
-*/
+
 
 const deleteNote=(noteDiv)=>
 {
