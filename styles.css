@@ -10,7 +10,7 @@
 {
     margin-top: 16px;
     display:flex;
-    align-items: 16px;
+    align-items: flex-start;
 }
 
 .inputs
@@ -23,7 +23,7 @@
     background: #77625D;
     padding:16px;
     border-radius: 4px;
-    width:calc(100%-250px);
+    width:calc(100% + 250px);
 }
 
 input
@@ -33,7 +33,7 @@ input
     padding: 0 8px;
     border-radius: 6px;
     margin-bottom: 16px;
-    width:calc(50%-152px);
+    width:calc(50% - 152px);
 }
 
 button,select
@@ -44,7 +44,7 @@ button,select
     border:none;
     border-radius: 4px;
     font-weight: bold;
-    padding:4px 16px;
+    padding:2px 16px;
     color:#fff;
 }
 
